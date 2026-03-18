@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f0f2f5;
+}
+
+/* Banner */
+.banner {
+  background: url('../img/banner.jpg') no-repeat center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-bottom: 5px solid #007BFF;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.banner p {
+  font-size: 18px;
+}
+
+/* Container */
+.container {
+  background: white;
+  width: 350px;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 12px;
+  border: 2px solid #ddd;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Botões */
+.botoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 48%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Botão limpar */
+.limpar {
+  background-color: #dc3545;
+}
+
+.limpar:hover {
+  background-color: #a71d2a;
+}
+
+/* Resultado */
+#resultado {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #e9ecef;
+  border: 1px solid #ccc;
+}
